@@ -1,11 +1,19 @@
-import Add from "./components/Add";
-import Greet from "./components/Greet";
+import Add from "./Add";
+import Greet from "./Greet";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Main from "./components/Main";
+
 
 const App = () => {
-   return <>
-     <Greet />
-     <Add />
-    </>
+     
+   return (
+    <div>
+      <Header />
+      <Main />
+      <Footer />
+    </div>
+   )
 }
 
 export default App;
